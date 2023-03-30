@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-class ColorsTable: UIViewController {
+class ColorsTableSwift: UIViewController {
     
     var colors: [UIColor] = []
     
@@ -37,7 +37,7 @@ class ColorsTable: UIViewController {
     }
 }
 
-extension ColorsTable: UITableViewDelegate, UITableViewDataSource {
+extension ColorsTableSwift: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection: Int) -> Int {
         return colors.count
     }

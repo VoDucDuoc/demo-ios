@@ -29,7 +29,7 @@
         <!--Colors-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ColorsTable" customModule="demo_uikit_ios" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ColorsTableObjectiveC" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -64,6 +64,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Colors" id="Jux-F5-hNt"/>
                     <connections>
+                        <outlet property="myTableView" destination="WdG-wo-jiF" id="HVh-4V-P9O"/>
                         <segue destination="CY9-sw-cxJ" kind="show" identifier="ToColorsDetail" id="h6t-dc-nmN"/>
                     </connections>
                 </viewController>
@@ -71,10 +72,10 @@
             </objects>
             <point key="canvasLocation" x="764" y="-27"/>
         </scene>
-        <!--Colors Detail Swift-->
+        <!--Colors Detail ObjectiveC-->
         <scene sceneID="cdU-TT-zSL">
             <objects>
-                <viewController id="CY9-sw-cxJ" customClass="ColorsDetailSwift" customModule="demo_uikit_ios" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="CY9-sw-cxJ" customClass="ColorsDetailObjectiveC" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cJt-mE-C9f">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
