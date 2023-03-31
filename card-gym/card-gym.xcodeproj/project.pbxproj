@@ -17,6 +17,9 @@
 		F500647F29D6D2A700EB6BAA /* CardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F500647E29D6D2A700EB6BAA /* CardVC.swift */; };
 		F500648129D6D41400EB6BAA /* FirstScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F500648029D6D41400EB6BAA /* FirstScreenVC.swift */; };
 		F500648329D6D69700EB6BAA /* SecondScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F500648229D6D69700EB6BAA /* SecondScreen.swift */; };
+		F500648529D6D8E300EB6BAA /* CWButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F500648429D6D8E300EB6BAA /* CWButton.swift */; };
+		F500648729D6E89B00EB6BAA /* RulesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F500648629D6E89B00EB6BAA /* RulesVC.swift */; };
+		F500648929D6EF3000EB6BAA /* Desk.swift in Sources */ = {isa = PBXBuildFile; fileRef = F500648829D6EF3000EB6BAA /* Desk.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		F500647E29D6D2A700EB6BAA /* CardVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardVC.swift; sourceTree = "<group>"; };
 		F500648029D6D41400EB6BAA /* FirstScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreenVC.swift; sourceTree = "<group>"; };
 		F500648229D6D69700EB6BAA /* SecondScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreen.swift; sourceTree = "<group>"; };
+		F500648429D6D8E300EB6BAA /* CWButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CWButton.swift; sourceTree = "<group>"; };
+		F500648629D6E89B00EB6BAA /* RulesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesVC.swift; sourceTree = "<group>"; };
+		F500648829D6EF3000EB6BAA /* Desk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Desk.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,9 @@
 				F500645C29D6D26E00EB6BAA /* Info.plist */,
 				F500648029D6D41400EB6BAA /* FirstScreenVC.swift */,
 				F500648229D6D69700EB6BAA /* SecondScreen.swift */,
+				F500648429D6D8E300EB6BAA /* CWButton.swift */,
+				F500648629D6E89B00EB6BAA /* RulesVC.swift */,
+				F500648829D6EF3000EB6BAA /* Desk.swift */,
 			);
 			path = "card-gym";
 			sourceTree = "<group>";
@@ -261,9 +270,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F500644F29D6D26D00EB6BAA /* AppDelegate.swift in Sources */,
+				F500648529D6D8E300EB6BAA /* CWButton.swift in Sources */,
 				F500647F29D6D2A700EB6BAA /* CardVC.swift in Sources */,
 				F500645129D6D26D00EB6BAA /* SceneDelegate.swift in Sources */,
+				F500648929D6EF3000EB6BAA /* Desk.swift in Sources */,
 				F500648129D6D41400EB6BAA /* FirstScreenVC.swift in Sources */,
+				F500648729D6E89B00EB6BAA /* RulesVC.swift in Sources */,
 				F500648329D6D69700EB6BAA /* SecondScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
