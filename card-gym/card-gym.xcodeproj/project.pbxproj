@@ -9,14 +9,14 @@
 /* Begin PBXBuildFile section */
 		F500644F29D6D26D00EB6BAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F500644E29D6D26D00EB6BAA /* AppDelegate.swift */; };
 		F500645129D6D26D00EB6BAA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F500645029D6D26D00EB6BAA /* SceneDelegate.swift */; };
-		F500645329D6D26D00EB6BAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F500645229D6D26D00EB6BAA /* ViewController.swift */; };
-		F500645629D6D26D00EB6BAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F500645429D6D26D00EB6BAA /* Main.storyboard */; };
 		F500645829D6D26E00EB6BAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F500645729D6D26E00EB6BAA /* Assets.xcassets */; };
 		F500645B29D6D26E00EB6BAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F500645929D6D26E00EB6BAA /* LaunchScreen.storyboard */; };
 		F500646629D6D26E00EB6BAA /* card_gymTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F500646529D6D26E00EB6BAA /* card_gymTests.swift */; };
 		F500647029D6D26E00EB6BAA /* card_gymUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F500646F29D6D26E00EB6BAA /* card_gymUITests.swift */; };
 		F500647229D6D26E00EB6BAA /* card_gymUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F500647129D6D26E00EB6BAA /* card_gymUITestsLaunchTests.swift */; };
 		F500647F29D6D2A700EB6BAA /* CardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F500647E29D6D2A700EB6BAA /* CardVC.swift */; };
+		F500648129D6D41400EB6BAA /* FirstScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F500648029D6D41400EB6BAA /* FirstScreenVC.swift */; };
+		F500648329D6D69700EB6BAA /* SecondScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F500648229D6D69700EB6BAA /* SecondScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +40,6 @@
 		F500644B29D6D26D00EB6BAA /* card-gym.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "card-gym.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F500644E29D6D26D00EB6BAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F500645029D6D26D00EB6BAA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F500645229D6D26D00EB6BAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F500645529D6D26D00EB6BAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F500645729D6D26E00EB6BAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F500645A29D6D26E00EB6BAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F500645C29D6D26E00EB6BAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +49,8 @@
 		F500646F29D6D26E00EB6BAA /* card_gymUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = card_gymUITests.swift; sourceTree = "<group>"; };
 		F500647129D6D26E00EB6BAA /* card_gymUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = card_gymUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F500647E29D6D2A700EB6BAA /* CardVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardVC.swift; sourceTree = "<group>"; };
+		F500648029D6D41400EB6BAA /* FirstScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreenVC.swift; sourceTree = "<group>"; };
+		F500648229D6D69700EB6BAA /* SecondScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,11 +104,11 @@
 				F500647E29D6D2A700EB6BAA /* CardVC.swift */,
 				F500644E29D6D26D00EB6BAA /* AppDelegate.swift */,
 				F500645029D6D26D00EB6BAA /* SceneDelegate.swift */,
-				F500645229D6D26D00EB6BAA /* ViewController.swift */,
-				F500645429D6D26D00EB6BAA /* Main.storyboard */,
 				F500645729D6D26E00EB6BAA /* Assets.xcassets */,
 				F500645929D6D26E00EB6BAA /* LaunchScreen.storyboard */,
 				F500645C29D6D26E00EB6BAA /* Info.plist */,
+				F500648029D6D41400EB6BAA /* FirstScreenVC.swift */,
+				F500648229D6D69700EB6BAA /* SecondScreen.swift */,
 			);
 			path = "card-gym";
 			sourceTree = "<group>";
@@ -236,7 +236,6 @@
 			files = (
 				F500645B29D6D26E00EB6BAA /* LaunchScreen.storyboard in Resources */,
 				F500645829D6D26E00EB6BAA /* Assets.xcassets in Resources */,
-				F500645629D6D26D00EB6BAA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +260,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F500645329D6D26D00EB6BAA /* ViewController.swift in Sources */,
 				F500644F29D6D26D00EB6BAA /* AppDelegate.swift in Sources */,
 				F500647F29D6D2A700EB6BAA /* CardVC.swift in Sources */,
 				F500645129D6D26D00EB6BAA /* SceneDelegate.swift in Sources */,
+				F500648129D6D41400EB6BAA /* FirstScreenVC.swift in Sources */,
+				F500648329D6D69700EB6BAA /* SecondScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +301,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F500645429D6D26D00EB6BAA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F500645529D6D26D00EB6BAA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F500645929D6D26E00EB6BAA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -446,7 +438,6 @@
 				INFOPLIST_FILE = "card-gym/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -474,7 +465,6 @@
 				INFOPLIST_FILE = "card-gym/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
