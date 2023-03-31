@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F50063CD29D6C59B00EB6BAA /* Desk.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50063CC29D6C59B00EB6BAA /* Desk.swift */; };
 		F54A705D29CD807B00F5F0C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F54A705C29CD807B00F5F0C9 /* AppDelegate.m */; };
 		F54A706029CD807B00F5F0C9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F54A705F29CD807B00F5F0C9 /* SceneDelegate.m */; };
 		F54A706329CD807B00F5F0C9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F54A706229CD807B00F5F0C9 /* ViewController.m */; };
@@ -24,8 +25,9 @@
 		F59D066A29D1B46300D0E26E /* ColorsDetailSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59D066929D1B46300D0E26E /* ColorsDetailSwift.swift */; };
 		F59D066C29D1B71C00D0E26E /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59D066B29D1B71C00D0E26E /* UIColor+Ext.swift */; };
 		F59D066F29D2A4EA00D0E26E /* ColorsTableObjectiveC.m in Sources */ = {isa = PBXBuildFile; fileRef = F59D066E29D2A4EA00D0E26E /* ColorsTableObjectiveC.m */; };
-		F59D067129D5A4A600D0E26E /* demo-uikit-ios in Resources */ = {isa = PBXBuildFile; fileRef = F59D067029D5A4A500D0E26E /* demo-uikit-ios */; };
 		F59D067429D5A4EF00D0E26E /* ColorsDetailObjectiveC.m in Sources */ = {isa = PBXBuildFile; fileRef = F59D067329D5A4EF00D0E26E /* ColorsDetailObjectiveC.m */; };
+		F59D067629D687D500D0E26E /* MenuScreenSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59D067529D687D500D0E26E /* MenuScreenSwift.swift */; };
+		F59D067829D6947400D0E26E /* CardProjectSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59D067729D6947400D0E26E /* CardProjectSwift.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F50063CC29D6C59B00EB6BAA /* Desk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Desk.swift; sourceTree = "<group>"; };
 		F54A705829CD807B00F5F0C9 /* demo-uikit-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "demo-uikit-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F54A705B29CD807B00F5F0C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F54A705C29CD807B00F5F0C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -67,16 +70,17 @@
 		F54A709229CD858D00F5F0C9 /* XYZPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYZPerson.h; sourceTree = "<group>"; };
 		F54A709329CD906800F5F0C9 /* XYZShoutingPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYZShoutingPerson.h; sourceTree = "<group>"; };
 		F54A709429CD907800F5F0C9 /* XYZShoutingPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYZShoutingPerson.m; sourceTree = "<group>"; };
-		F59D066529D18FAF00D0E26E /* ColorsTableSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsTableSwift.swift; sourceTree = "<group>"; };
 		F59D066229D18AF400D0E26E /* demo-uikit-ios-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "demo-uikit-ios-Bridging-Header.h"; sourceTree = "<group>"; };
+		F59D066529D18FAF00D0E26E /* ColorsTableSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsTableSwift.swift; sourceTree = "<group>"; };
 		F59D066729D1907F00D0E26E /* SytaxSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SytaxSwift.swift; sourceTree = "<group>"; };
 		F59D066929D1B46300D0E26E /* ColorsDetailSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsDetailSwift.swift; sourceTree = "<group>"; };
 		F59D066B29D1B71C00D0E26E /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
 		F59D066D29D2A4EA00D0E26E /* ColorsTableObjectiveC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorsTableObjectiveC.h; sourceTree = "<group>"; };
 		F59D066E29D2A4EA00D0E26E /* ColorsTableObjectiveC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorsTableObjectiveC.m; sourceTree = "<group>"; };
-		F59D067029D5A4A500D0E26E /* demo-uikit-ios */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "demo-uikit-ios"; sourceTree = "<group>"; };
 		F59D067229D5A4EF00D0E26E /* ColorsDetailObjectiveC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorsDetailObjectiveC.h; sourceTree = "<group>"; };
 		F59D067329D5A4EF00D0E26E /* ColorsDetailObjectiveC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorsDetailObjectiveC.m; sourceTree = "<group>"; };
+		F59D067529D687D500D0E26E /* MenuScreenSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScreenSwift.swift; sourceTree = "<group>"; };
+		F59D067729D6947400D0E26E /* CardProjectSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardProjectSwift.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +155,9 @@
 				F59D066E29D2A4EA00D0E26E /* ColorsTableObjectiveC.m */,
 				F59D067229D5A4EF00D0E26E /* ColorsDetailObjectiveC.h */,
 				F59D067329D5A4EF00D0E26E /* ColorsDetailObjectiveC.m */,
+				F59D067529D687D500D0E26E /* MenuScreenSwift.swift */,
+				F59D067729D6947400D0E26E /* CardProjectSwift.swift */,
+				F50063CC29D6C59B00EB6BAA /* Desk.swift */,
 			);
 			path = "demo-uikit-ios";
 			sourceTree = "<group>";
@@ -303,6 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F50063CD29D6C59B00EB6BAA /* Desk.swift in Sources */,
 				F54A706329CD807B00F5F0C9 /* ViewController.m in Sources */,
 				F59D066829D1907F00D0E26E /* SytaxSwift.swift in Sources */,
 				F54A709529CD907800F5F0C9 /* XYZShoutingPerson.m in Sources */,
@@ -310,9 +318,11 @@
 				F54A706E29CD807C00F5F0C9 /* main.m in Sources */,
 				F59D066F29D2A4EA00D0E26E /* ColorsTableObjectiveC.m in Sources */,
 				F54A706029CD807B00F5F0C9 /* SceneDelegate.m in Sources */,
+				F59D067829D6947400D0E26E /* CardProjectSwift.swift in Sources */,
 				F59D066C29D1B71C00D0E26E /* UIColor+Ext.swift in Sources */,
 				F59D066629D18FAF00D0E26E /* ColorsTableSwift.swift in Sources */,
 				F59D066A29D1B46300D0E26E /* ColorsDetailSwift.swift in Sources */,
+				F59D067629D687D500D0E26E /* MenuScreenSwift.swift in Sources */,
 				F59D067429D5A4EF00D0E26E /* ColorsDetailObjectiveC.m in Sources */,
 				F54A709129CD857000F5F0C9 /* XYZPerson.m in Sources */,
 			);
